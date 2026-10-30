@@ -88,6 +88,6 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
 footer nav { display: flex; gap: 1.25rem; }
 footer a { color: var(--muted); }
 
-@media (max-width: 30rem) { h1 { font-size: 2.25rem; } .hero { padding: 2.5rem 0; } }
+@media (max-width: 30rem) { h1 { font-size: 2.25rem; } .hero { padding: 4rem 0 2.5rem; } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 @media print { .theme-toggle, .topbar { display: none; } .hero { background: none; padding: 0; border: 0; } .cta, footer nav { display: none; } }
